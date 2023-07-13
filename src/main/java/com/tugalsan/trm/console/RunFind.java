@@ -27,6 +27,7 @@ public class RunFind {
             d.ce("find_pom", "restArgs.size() != 2");
             return;
         }
+        TS_Consol
         var groupId = restArgs.get(0);
         var artifactId = restArgs.get(1);
         List<TS_FilePomDeprecated> buffer = new ArrayList();
