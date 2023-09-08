@@ -12,7 +12,7 @@ public class Main {
     final public static TS_FilePomConfig pomCfg = TS_FilePomConfig.of();
 
     //cd C:\me\codes\com.tugalsan\trm\com.tugalsan.trm.trm
-    //java --enable-preview --add-modules jdk.incubator.concurrent -jar target/com.tugalsan.trm.trm-1.0-SNAPSHOT-jar-with-dependencies.jar
+    //java --enable-preview --add-modules jdk.incubator.vector -jar target/com.tugalsan.trm.trm-1.0-SNAPSHOT-jar-with-dependencies.jar
     public static void main(String... args) {
         TS_ConsoleUtils.mainLoop(
                 List.of("q", "quit"), List.of("cls", "clear"),
