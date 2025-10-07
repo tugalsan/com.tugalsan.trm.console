@@ -1,7 +1,7 @@
 package com.tugalsan.trm.console;
 
 import com.tugalsan.api.cast.server.TS_CastUtils;
-import com.tugalsan.api.console.client.TGS_ConsoleOption;
+import com.tugalsan.api.console.jdkclient.TGS_ConsoleOption;
 import com.tugalsan.api.file.pom.server.TS_FilePomConfig;
 import com.tugalsan.api.file.server.TS_DirectoryUtils;
 import com.tugalsan.api.log.server.TS_Log;
